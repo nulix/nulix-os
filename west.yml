@@ -1,0 +1,18 @@
+manifest:
+  defaults:
+    remote: origin
+
+  remotes:
+    - name: origin
+      url-base: git@github.com:nulix
+
+  projects:
+    - name: bsp
+      revision: c56e49f1d3ad4032df18d1b41f6ee0854910c9fe
+      path: bsp
+    - name: rootfs
+      revision: 9da4316a2e40dafdb7f0ccc0546111e02131ec84
+      path: rootfs
+    - name: tools
+      revision: c54300c386e15afa9af1cb09e42c5dbee5765f51
+      path: tools
