@@ -4,7 +4,7 @@ manifest:
 
   remotes:
     - name: origin
-      url-base: git@github.com:nulix
+      url-base: https://github.com/nulix
 
   projects:
     - name: bsp
