@@ -11,11 +11,11 @@ manifest:
       revision: 89b0eb9fcec86a181d6126e75a4aea3110866714
       path: bsp
     - name: rootfs
-      revision: 890011d3f648db796fb5411be28f557fd11a2817
+      revision: 333a8034a016ba073eb2ef29b16bb4a62f0cec9b
       path: rootfs
     - name: apps
       revision: f000a4f6f9f1e00aea82af11553a97bfad21ec76
       path: rootfs/apps
     - name: tools
-      revision: c2036a7ae565226830628e020ea4c210399f906d
+      revision: 4092cd21d0079724882080b9e5b08475fa521e88
       path: tools
