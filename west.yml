@@ -4,6 +4,8 @@ manifest:
 
   remotes:
     - name: origin
+      url-base: git@github.com:nulix
+    - name: origin-https
       url-base: https://github.com/nulix
 
   projects:
