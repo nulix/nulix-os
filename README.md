@@ -23,12 +23,14 @@ nulix build os
 ## Flash resulting image
 
 ```sh
-bzcat out/nulix-os-1.0.0.img.bz2 | sudo dd of=/dev/disk<N> bs=4M iflag=fullblock oflag=direct status=progress
+cd build/deploy/rpi3
+bzcat nulix-os-1.0.0.img.bz2 | sudo dd of=/dev/disk<N> bs=4M iflag=fullblock oflag=direct status=progress
 ```
 
 ## Start local OSTree server
 
 ```sh
-python3 -m http.server 8000 --directory out/ostree_repo
+cd build/deploy/rpi3
+python3 -m http.server 8000 --directory ostree_repo
 ```
 
