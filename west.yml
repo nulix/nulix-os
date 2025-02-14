@@ -13,7 +13,7 @@ manifest:
       revision: 89b0eb9fcec86a181d6126e75a4aea3110866714
       path: bsp
     - name: rootfs
-      revision: 1ce00c86334498ff024a89c09877204d7b6a58eb
+      revision: 29898dd46573a8cfb4f64287f175b4baa2e7a6b6
       path: rootfs
     - name: apps
       revision: f000a4f6f9f1e00aea82af11553a97bfad21ec76
