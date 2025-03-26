@@ -8,11 +8,14 @@
 docker run -it \
   -v ~/path/to/nulix-os:/root/nulix-os \
   -v /var/run/docker.sock:/var/run/docker.sock \
+  -p 8000:8000 \
+  -w /root \
   --name nulix-builder \
   nulix/builder:os
 ```
 
-> ℹ️ Add `-v ~/.ssh:/root/.ssh` to reuse the ssh key from the host.
+> [!NOTE]
+> Add `-v ~/.ssh:/root/.ssh` to reuse the ssh key from the host.
 
 2. Start the container every other time:
 
@@ -55,18 +58,20 @@ nulix build os
 
 ## Flash the resulting image
 
-> ℹ️ Run the following command on the host. Be sure to use the correct file name with proper version string. Also make sure to use the correct disk name.
+> [!IMPORTANT]
+> Run the following command on the host. Be sure to use the correct file name with proper version string.
+> Also make sure to use the correct disk name.
 
 ```sh
-cd ~/path/to/nulix-os/build/deploy/<machine>
+cd ~/path/to/nulix-os/build/deploy/<MACHINE>
 bzcat nulix-os-<version>.img.bz2 | sudo dd of=/dev/disk<N> bs=4M iflag=fullblock oflag=direct status=progress
 ```
 
 ## Start the local OSTree server
 
-> ℹ️ Run the following command inside the container.
+> [!IMPORTANT]
+> Run the following command inside the container.
 
 ```sh
-cd build/deploy/$MACHINE
-python3 -m http.server 8000 --directory ostree_repo
+python3 -m http.server 8000 --directory build/deploy/$MACHINE/ostree_repo
 ```
