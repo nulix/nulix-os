@@ -38,7 +38,6 @@ source /nulix-os-venv/bin/activate
 ## Fetch the sources
 
 ```sh
-cd ~
 west init -m git@github.com:nulix/nulix-os.git nulix-os
 cd nulix-os
 west update
