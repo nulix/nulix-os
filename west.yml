@@ -10,14 +10,14 @@ manifest:
 
   projects:
     - name: bsp
-      revision: 89b0eb9fcec86a181d6126e75a4aea3110866714
+      revision: 66e5619f2752444c33637889a8f0d6d3b123e33c
       path: bsp
     - name: rootfs
-      revision: 29898dd46573a8cfb4f64287f175b4baa2e7a6b6
+      revision: 16e71366f1d596c8b32e135da7860f21135fe4bd
       path: rootfs
     - name: apps
       revision: f000a4f6f9f1e00aea82af11553a97bfad21ec76
       path: rootfs/apps
     - name: tools
-      revision: 189feebe51fa7c257589c313da4fd7615ca22d2c
+      revision: 87b619c4fed14d67413d951579d8f25a43ffa53b
       path: tools
