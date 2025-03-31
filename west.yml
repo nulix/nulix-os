@@ -4,8 +4,6 @@ manifest:
 
   remotes:
     - name: origin
-      url-base: git@github.com:nulix
-    - name: origin-https
       url-base: https://github.com/nulix
 
   projects:
@@ -19,5 +17,5 @@ manifest:
       revision: f000a4f6f9f1e00aea82af11553a97bfad21ec76
       path: rootfs/apps
     - name: tools
-      revision: 4c145653703b2989d63ff9adc440bfaf9d8f580b
+      revision: 39e2f723fa1ee3d4fc9db248204b989f53274e42
       path: tools
