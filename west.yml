@@ -11,8 +11,8 @@ manifest:
       revision: 66e5619f2752444c33637889a8f0d6d3b123e33c
       path: bsp
     - name: rootfs
-      revision: feffe06fd54a9c86cb62ab4c627893ee13d3cd8e
+      revision: 728d24e5287b1157dc0369aae0f0274051ebc323
       path: rootfs
     - name: tools
-      revision: 3666098bab4684e5bd0e59c33702bbaa4b3c5e5d
+      revision: 9fb9cff6401c68605862b68b0606e6947a5ca411
       path: tools
