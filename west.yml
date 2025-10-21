@@ -8,7 +8,7 @@ manifest:
 
   projects:
     - name: bsp
-      revision: 66e5619f2752444c33637889a8f0d6d3b123e33c
+      revision: 6862cecf6458bcc70bcec5ca5aac65852be0b671
       path: bsp
     - name: rootfs
       revision: 728d24e5287b1157dc0369aae0f0274051ebc323
