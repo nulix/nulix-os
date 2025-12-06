@@ -8,11 +8,11 @@ manifest:
 
   projects:
     - name: bsp
-      revision: 6862cecf6458bcc70bcec5ca5aac65852be0b671
+      revision: 9dfa667a196d71a89fa53893f8146dc22ea7d8a4
       path: bsp
     - name: rootfs
-      revision: cd5e2c55901a7aba423a4cd92c22ed5922e0b2a5
+      revision: 860a27795edbbfe15356781d749d69b4fad38038
       path: rootfs
     - name: tools
-      revision: 778b2a2858aad2d59ce7a9cd2e46ade136fc08bc
+      revision: 837abeb5e315f1b366586b53e63e2e3b9482df42
       path: tools
