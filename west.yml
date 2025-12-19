@@ -14,5 +14,5 @@ manifest:
       revision: 7d9586797cd7e9f5c0de72cd3c00acd1cca9aac3
       path: rootfs
     - name: tools
-      revision: 33ac4af00efc42963c516af2c2cf98825ba2075d
+      revision: bfe960d9a904c562843d0d2812e99f5b6eca9629
       path: tools
